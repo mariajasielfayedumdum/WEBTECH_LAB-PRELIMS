@@ -1,0 +1,48 @@
+body {
+	background-color: #98CFF7;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #98A6B1;
+    background-color: #f3f3f3;
+	width: 100%;
+}
+
+.header li {
+    float: left;
+}
+
+.header li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+	font-family: 'Homemade Apple';
+	font-size: 110%;
+}
+
+.header li a:hover:not(.active) {
+    background-color: #7DCEA0;
+}
+
+.header li a.active {
+    color: white;
+    background-color: #7DCEA0;
+}
+
+.body_content frameset {
+	border-style: solid;
+	border: 5;
+}
+.home h1 {
+	font-family: 'Dancing Script';
+	font-size: 150%;
+	text-align: left;
+}
