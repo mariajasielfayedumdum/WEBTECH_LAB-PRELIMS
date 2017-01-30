@@ -41,28 +41,20 @@ body {
 	height: 120px;
 	margin-top: -10px;
 }
-.home legend {
-	padding: 0.2em 0.5em;
-	font-family: 'Cabin Sketch';
-	font-size: 180%;
-	text-align: center;
-}
-.home fieldset {
-	margin-top: 20px;
-	border-bottom: 1px solid #98CFF7;
-	border-left: 1px solid #98CFF7;
-	border-right: 1px solid #98CFF7;
-}
+
 .home h1 {
 	color: #4B5C68;
 	text-align: left;
 	font-family: 'Rock Salt';
 	font-size: 100%;
+	margin-top: 50px;
+	margin-left: 20px;
 }
 .home p {
-	font-family: 'Marck Script';
+	font-family: 'Love Ya Like A Sister';
 	font-size: 120%;
 	text-align: left;
+	margin-left: 20px;
 }
 .gallery fieldset {
 	margin-top: 20px;
@@ -81,16 +73,16 @@ body {
 	text-align: left;
 	font-family: 'Rock Salt';
 	font-size: 100%;
+	margin-left: 20px;
 }
 .gallery video {
 	width: 600;
-	position: relative;
-	top: 200px;
-	right: 0;
-	left: 50%;
-	bottom: 0;
 	margin: auto;
-	transform: translate(-50%, -50%);
+}
+.gallery p {
+	font-family: 'Love Ya Like A Sister';
+	font-size: 100%;
+	margin-left: 20px;
 }
 .contact fieldset {
 	margin-top: 20px;
@@ -109,8 +101,13 @@ body {
 	text-align: left;
 	font-family: 'Rock Salt';
 	font-size: 100%;
+	margin-left: 20px;
 }
-
+.contact p {
+	font-family: 'Love Ya Like A Sister';
+	font-size: 110%;
+	margin-left: 20px;
+}
 .about fieldset {
 	margin-top: 20px;
 	border-bottom: 1px solid #98CFF7;
@@ -128,6 +125,12 @@ body {
 	text-align: left;
 	font-family: 'Rock Salt';
 	font-size: 100%;
+	margin-left: 20px;
+}
+.about p {
+	font-family: 'Cabin Sketch';
+	font-size: 140%;
+	margin-left: 100px;
 }
 
 .more fieldset {
@@ -147,4 +150,10 @@ body {
 	text-align: left;
 	font-family: 'Rock Salt';
 	font-size: 100%;
+	margin-left: 20px;
+}
+.more p {
+	font-family: 'Love Ya Like A Sister';
+	font-size: 110%;
+	margin-left: 20px;
 }
