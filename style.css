@@ -92,3 +92,59 @@ body {
 	margin: auto;
 	transform: translate(-50%, -50%);
 }
+.contact fieldset {
+	margin-top: 20px;
+	border-bottom: 1px solid #98CFF7;
+	border-left: 1px solid #98CFF7;
+	border-right: 1px solid #98CFF7;
+}
+.contact legend {
+	padding: 0.2em 0.5em;
+	font-family: 'Cabin Sketch';
+	font-size: 180%;
+	text-align: center;
+}
+.contact h1 {
+	color: #4B5C68;
+	text-align: left;
+	font-family: 'Rock Salt';
+	font-size: 100%;
+}
+
+.about fieldset {
+	margin-top: 20px;
+	border-bottom: 1px solid #98CFF7;
+	border-left: 1px solid #98CFF7;
+	border-right: 1px solid #98CFF7;
+}
+.about legend {
+	padding: 0.2em 0.5em;
+	font-family: 'Cabin Sketch';
+	font-size: 180%;
+	text-align: center;
+}
+.about h1 {
+	color: #4B5C68;
+	text-align: left;
+	font-family: 'Rock Salt';
+	font-size: 100%;
+}
+
+.more fieldset {
+	margin-top: 20px;
+	border-bottom: 1px solid #98CFF7;
+	border-left: 1px solid #98CFF7;
+	border-right: 1px solid #98CFF7;
+}
+.more legend {
+	padding: 0.2em 0.5em;
+	font-family: 'Cabin Sketch';
+	font-size: 180%;
+	text-align: center;
+}
+.more h1 {
+	color: #4B5C68;
+	text-align: left;
+	font-family: 'Rock Salt';
+	font-size: 100%;
+}
