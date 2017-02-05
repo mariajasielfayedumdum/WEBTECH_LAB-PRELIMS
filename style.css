@@ -50,7 +50,7 @@ body {
 }
 .home p {
 	font-family: 'Love Ya Like A Sister';
-	font-size: 120%;
+	font-size: 110%;
 	text-align: left;
 	margin-left: 20px;
 }
@@ -287,7 +287,6 @@ body {
 	margin-left: 1%;
 	margin-top: -26%;
 	padding: 0;
-	position: relative;
 }
 .container a  {
    color: #000;
