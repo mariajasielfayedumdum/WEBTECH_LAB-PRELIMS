@@ -76,7 +76,6 @@ body {
 .gallery video {
 	margin-left: 48%;
 	margin-top: 1%;
-	position: relative;
 }
 .gallery p {
 	font-family: 'Love Ya Like A Sister';
@@ -286,7 +285,7 @@ body {
 .container {
 	display: block;
 	margin-left: 1%;
-	margin-top: -27%;
+	margin-top: -26%;
 	padding: 0;
 	position: relative;
 }
