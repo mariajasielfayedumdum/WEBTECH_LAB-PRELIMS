@@ -49,6 +49,7 @@ body {
 	margin-left: 20px;
 }
 .home p {
+	text-indent: 50px;
 	font-family: 'Love Ya Like A Sister';
 	font-size: 120%;
 	text-align: left;
@@ -74,7 +75,7 @@ body {
 	margin-left: 20px;
 }
 .gallery video {
-	margin-left: 48%;
+	margin-left: 50%;
 	margin-top: 1%;
 }
 .gallery p {
@@ -107,6 +108,7 @@ body {
 	font-family: 'Love Ya Like A Sister';
 	font-size: 120%;
 	margin-left: 20px;
+	text-indent:50px;
 }
 .about fieldset {
 	margin-top: 20px;
@@ -150,16 +152,18 @@ body {
 	font-family: 'Love Ya Like A Sister';
 	font-size: 120%;
 	margin-left: 20px;
+	text-indent:50px;
 }
 .dumdum img {
 	width:15%; 
-	height:28%;
+	height:25%;
 	position: relative;
 	margin-left: 5%;
 	margin-top: 3%;
-	display: block;
+	display: inline;
 	float: left;
 	clear: left;
+	z-index: -1;
 }
 .dumdum h1{
 	text-align: left;
@@ -168,50 +172,76 @@ body {
 	margin-left: 6%;
 	position: absolute;
 	display: block;
+	z-index: -1;
 }
 .dumdum p {
 	position: absolute;
 	display: block;
-	margin-left: 6%;
+	margin-left: 7%;
 	font-family: 'Cabin Sketch';
 	font-size: 100%;
 	text-align: center;
-	margin-top: 18%;
+	margin-top: 20%;
+	z-index: -1;
+}
+.dumdum h3{
+	position: absolute;
+	display: block;
+	margin-left: 10%;
+	font-family: 'Cabin Sketch';
+	font-size: 100%;
+	text-align: center;
+	margin-top: 19%;
+	z-index: -1;
 }
 .beltran img {
 	position: absolute;
 	margin-left: 23%;
 	margin-top: 3%;
-	display: block;
+	display: inline;
 	width:15%; 
 	height:30%;
+	z-index: -1;
 }
 .beltran h1{
 	text-align: center;
 	font-family: 'Cabin Sketch';
 	font-size: 120%;
 	margin-left: 24%;
+	z-index: -1;
 	position: absolute;
 	display: block;
 }
 .beltran p {
+	z-index: -1;
 	position: absolute;
 	display: block;
 	margin-left: 26%;
 	font-family: 'Cabin Sketch';
 	font-size: 100%;
 	text-align: center;
-	margin-top: 18%;
+	margin-top: 20%;
+}
+.beltran h3{
+	position: absolute;
+	display: block;
+	margin-left: 27%;
+	font-family: 'Cabin Sketch';
+	font-size: 100%;
+	margin-top: 19%;
+	z-index: -1;
 }
 .goyo img {
 	position: absolute;
-	margin-left: 42%;
+	margin-left: 23%;
 	margin-top: 3%;
-	display: block;
+	display: inline;
 	width:15%; 
 	height:30%;
+	z-index: -1;
 }
 .goyo h1{
+	z-index: -1;
 	text-align: center;
 	font-family: 'Cabin Sketch';
 	font-size: 120%;
@@ -220,13 +250,23 @@ body {
 	display: block;
 }
 .goyo p {
+	z-index: -1;
 	position: absolute;
 	display: block;
 	margin-left: 45%;
 	font-family: 'Cabin Sketch';
 	font-size: 100%;
 	text-align: center;
-	margin-top: 18%;
+	margin-top: 20%;
+}
+.goyo h3{
+	position: absolute;
+	display: block;
+	margin-left: 47%;
+	font-family: 'Cabin Sketch';
+	font-size: 100%;
+	margin-top: 19%;
+	z-index: -1;
 }
 .ocado img {
 	width: 15%;
@@ -234,11 +274,13 @@ body {
 	position: absolute;
 	margin-left: 41%;
 	margin-top: 3%;
-	display: inline-block;
+	display: inline;
 	width:15%; 
 	height:30%;
+	z-index: -1;
 }
 .ocado h1{
+	z-index: -1;
 	text-align: center;
 	font-family: 'Cabin Sketch';
 	font-size: 120%;
@@ -247,24 +289,37 @@ body {
 	display: inline-block;
 }
 .ocado p {
+	z-index: -1;
 	position: absolute;
 	display: block;
 	margin-left: 45%;
 	font-family: 'Cabin Sketch';
 	font-size: 100%;
 	text-align: center;
-	margin-top: 18%;
+	margin-top: 20%;
 	display: inline-block;
+}
+.ocado h3{
+	position: absolute;
+	display: block;
+	margin-left: 66%;
+	font-family: 'Cabin Sketch';
+	font-size: 100%;
+	text-align: center;
+	margin-top: 19%;
+	z-index: -1;
 }
 .rimando img {
 	position: absolute;
 	margin-left: 60%;
 	margin-top: 3%;
-	display: inline-block;
+	display: inline;
 	width:15%; 
 	height:30%;
+	z-index: -1;
 }
 .rimando h1{
+	z-index: -1;
 	text-align: right;
 	font-family: 'Cabin Sketch';
 	font-size: 120%;
@@ -273,18 +328,28 @@ body {
 	display: inline-block;
 }
 .rimando p {
+	z-index: -1;
 	position: absolute;
 	display: block;
 	margin-left: 62%;
 	font-family: 'Cabin Sketch';
 	font-size: 100%;
 	text-align: center;
-	margin-top: 18%;
+	margin-top: 20%;
 	display: inline-block;
+}
+.rimando h3{
+	position: absolute;
+	display: block;
+	margin-left: 85%;
+	font-family: 'Cabin Sketch';
+	font-size: 100%;
+	margin-top: 19%;
+	z-index: -1;
 }
 .container {
 	display: block;
-	margin-left: 5%;
+	margin-left: 10%;
 	margin-top: -19%;
 	padding: 0;
 	position: relative;
@@ -305,14 +370,18 @@ body {
    background: #000;
    border: 5px solid #eaeaea;
    box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
-   height: 320px;
-   width: 600px;
+   height: 110%;
+   width:40%;
    overflow: visible;
    position: relative;
 }
 #mask {
    overflow: hidden;
    height: 320px;
+}
+#mask img {
+	height: 105%;
+	width:105%;
 }
 #slider ul {
    margin: 0;
@@ -585,13 +654,15 @@ body {
 .assrtpics {
 	position: relative;
 	margin-top:5%;
-	margin-left: 12%;
-	margin-right:12%;
+	margin-left:3%;
+	margin-right:3%;
 	text-align: justify;
 }
 .assrtpics img {
 	display: inline-block;
 	padding:3px 10px;
+	height:15%;
+	width:15%;
 }
 .assrtpics:after {
 	content: '';
@@ -601,6 +672,7 @@ body {
 	font-family: 'Monotype Corsiva';
 	font-size: 90%;
 	text-align: left;
+	text-indent:10px;
 }
 .pop {
   margin: 5% auto;
@@ -611,6 +683,7 @@ body {
   position: relative;
   transition: all 5s ease-in-out;
   font-family: 'La Belle Aurore';
+
 }
 .pop .close {
   position: absolute;
@@ -627,6 +700,7 @@ body {
 .pop .content {
   max-height: 30%;
   overflow: auto;
+  z-index:100;
 }
 
 @media screen and (max-width: 600px){
@@ -661,6 +735,8 @@ footer .social img{
 	padding: 1px 10px;
 	margin-bottom: -15px;
 	margin-top: 6px;
+	height: 2%;
+	width: 2%;
 }
 footer .social p {
 	font-family: 'Dancing Script';
