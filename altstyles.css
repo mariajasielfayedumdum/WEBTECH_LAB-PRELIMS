@@ -110,7 +110,7 @@ body {
 }
 .contact h1 {
 	color: #4B5C68;
-	text-align: left;
+	text-align: center;
 	font-family: 'Rock Salt';
 	font-size: 120%;
 	margin-left: 20px;
@@ -135,7 +135,7 @@ body {
 }
 .about h1 {
 	color: #4B5C68;
-	text-align: left;
+	text-align: center;
 	font-family: 'Rock Salt';
 	font-size: 120%;
 	margin-left: 20px;
@@ -154,7 +154,7 @@ body {
 }
 .more h1 {
 	color: #4B5C68;
-	text-align: left;
+	text-align: center;
 	font-family: 'Rock Salt';
 	font-size: 120%;
 	margin-left: 20px;
@@ -166,7 +166,7 @@ body {
 	text-indent:50px;
 }
 .dumdum img {
-	width:15%; 
+	width:16%; 
 	height:25%;
 	position: relative;
 	margin-left: 5%;
@@ -180,7 +180,7 @@ body {
 	text-align: left;
 	font-family: 'Cabin Sketch';
 	font-size: 120%;
-	margin-left: 6%;
+	margin-left: 8%;
 	position: absolute;
 	display: block;
 	z-index: -1;
@@ -210,7 +210,7 @@ body {
 	margin-left: 23%;
 	margin-top: 3%;
 	display: inline;
-	width:15%; 
+	width:16%; 
 	height:30%;
 	z-index: -1;
 }
@@ -218,7 +218,7 @@ body {
 	text-align: center;
 	font-family: 'Cabin Sketch';
 	font-size: 120%;
-	margin-left: 24%;
+	margin-left: 25%;
 	z-index: -1;
 	position: absolute;
 	display: block;
@@ -244,10 +244,10 @@ body {
 }
 .goyo img {
 	position: absolute;
-	margin-left: 23%;
+	margin-left: 21%;
 	margin-top: 3%;
 	display: inline;
-	width:15%; 
+	width:16%; 
 	height:30%;
 	z-index: -1;
 }
@@ -283,10 +283,10 @@ body {
 	width: 15%;
 	height: 30%;
 	position: absolute;
-	margin-left: 41%;
+	margin-left: 40%;
 	margin-top: 3%;
 	display: inline;
-	width:15%; 
+	width:16%; 
 	height:30%;
 	z-index: -1;
 }
@@ -322,10 +322,10 @@ body {
 }
 .rimando img {
 	position: absolute;
-	margin-left: 60%;
+	margin-left: 59%;
 	margin-top: 3%;
 	display: inline;
-	width:15%; 
+	width:16%; 
 	height:30%;
 	z-index: -1;
 }
