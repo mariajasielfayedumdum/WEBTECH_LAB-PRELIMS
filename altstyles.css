@@ -50,18 +50,21 @@ body {
 	width: 90%;
 }
 .home h1 {
-	color: #4B5C68;
+	color: black;
 	text-align: center;
-	font-family: 'Times New Roman';
-	font-size: 200%;
-	margin-top: 50px;
-	margin-left: 20px;
+	font-family: 'Rock Salt';
+	font-size: 160%;
+	margin-top: 130px;
 }
 .home p {
-	font-family: 'Love Ya Like A Sister';
-	font-size: 110%;
+	text-indent: 50px;
+	font-family: Bookman Old Style;
+	font-size: 120%;
 	text-align: center;
-	margin-left: 20px;
+	margin-left: 100px;
+	margin-right:100px;
+	margin-top: 100px;
+	margin-bottom: 70px;
 }
 .gallery fieldset {
 	margin-top: 20px;
