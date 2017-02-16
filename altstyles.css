@@ -1,29 +1,40 @@
 body {
-	background-image: url("media/7.jpg");
-	background-repeat: repeat;
+	background-image: url("media/");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
 	margin: 1px;
 	padding: 1px;
 }
 .header ul {
-	margin-top: -6px;
-    list-style-type: none;
-    padding: 0;
-    overflow: hidden;
-    border: 1px solid #98A6B1;
-    background-color: #F0E5E5;
-	width: 100%;
+	margin-top: -30px;
+    	list-style-type: none;
+    	padding: 0px;
+   	overflow: hidden;
+    	border: solid black;
+	width: 90%;
+	height:50px;
+	position: relative;
+	margin-left:75px;
+	margin-right:75px;
+	border-bottom-color: white;
+	border-left-color:white;
+	border-right-color:white;
+	font-weight:bold;
 }
 .header li {
-    float: center;
+     	float: left;
+	padding-top:10px;
+	margin-left: 15px;
 }
 .header li a {
-    display: block;
-    color: #666;
-    text-align: left;
-    padding: 10px 90px;
+    color: black;
+    text-align: center;
+    padding:100px;
     text-decoration: none;
-	font-family: 'Homemade Apple';
-	font-size: 110%;
+    font-family:Bookman Old Style;
+    font-size: 150%;
+    margin-left: 20px;
 }
 .header li a:hover:not(.active) {
     background-color: #7DCEA0;
@@ -33,12 +44,10 @@ body {
     background-color: #7DCEA0;
 }
 .header img {
-	position: relative;
-	margin-top: -10px;
-	width: 100%; 
-	height:100%;
-  opacity: 0.8;
-  filter: alpha(opacity=100);
+	margin-top: 30px;
+	margin-left:75px;
+	margin-right:75px;
+	width: 90%;
 }
 .home h1 {
 	color: #4B5C68;
