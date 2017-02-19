@@ -1,13 +1,12 @@
 
 .header ul {
 	margin-top: -125px;
-    list-style-type: none;
-    overflow: hidden;
-
+    	list-style-type: none;
+    	overflow: hidden;
 	font-weight:bold;
 	width:15%;
-	height:2000px;
-	background-color:DarkCyan;
+	height:2700px;
+	background-color:seashell;
 }
 .header li {
     margin: 0;
@@ -16,7 +15,7 @@
 .header li a {
     display: block;
     color: black;
-	margin-bottom:20px;
+    margin-top:20px;
     text-decoration: none;
     font-family:Bookman Old Style;
     font-size: 150%;
@@ -41,7 +40,7 @@
 	font-family: 'Rock Salt';
 	font-size: 160%;
 	margin-left: 300px;
-	margin-top:-1400px;
+	margin-top:-2100px;
 }
 .home p {
 	font-family: Bookman Old Style;
@@ -54,14 +53,13 @@
 .gallery fieldset {
 	border:5px solid black;
 	margin-left:300px;
-	height:1300px;
+	height:1100px;
 	
 }
 .gallery legend {
 	padding: 0.2em 0.5em;
 	font-family: 'Cabin Sketch';
 	font-size: 180%;
-	text-align: center;
 }
 .gallery h1 {
 	color: black;
@@ -72,7 +70,7 @@
 }
 .gallery video {
 	margin-top:20px;
-	margin-left:300px;
+	margin-left:200px;
 }
 .gallery p {
 	font-family: Bookman Old Style;
@@ -105,6 +103,7 @@
 .about fieldset {
 	border:5px solid black;
 	height:500px;
+	
 }
 .about legend {
 	padding: 0.2em 0.5em;
@@ -340,19 +339,19 @@
 }
 .container {
 	display: block;
-	margin-right: -00px;
+	margin-left:-200px;
 	margin-top: -2050px;
 }
 
 #slider {
-   background: DarkCyan;
+   background: black;
    border: 15px solid black;
    box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
    height: 110%;
-   width:40%;
+   width:720px;
    overflow: visible;
    position: relative;
-   margin-left:200px;
+   margin-left:300px;
    margin-top:20px;
 }
 #mask {
@@ -634,7 +633,6 @@
 .assrtpics {
 	position: relative;
 	margin-top:1500px;
-	
 	text-align: justify;
 }
 .assrtpics img {
@@ -642,7 +640,8 @@
 	height:15%;
 	width:23%;
 	border: 5px solid black;
-	margin-top:300px;
+	margin-top:200px;
+	margin-bottom:-50px;
 }
 .assrtpics:after {
 	content: '';
@@ -651,7 +650,7 @@
 .assrtpics p {
 	font-family: 'Monotype Corsiva';
 	font-size: 25px;
-	margin-top:-300px;
+	margin-top:-200px;
 
 }
 .pop {
@@ -708,14 +707,15 @@
 }
 footer {
 	border: 1px solid #98A6B1;
-    background-color: #F0E5E5;
+    background-color:seashell;
 	margin-bottom: -10px;
 	margin-top:10px;
+	height:70px;
 }
 footer .social img{
 	padding: 1px 10px;
 	margin-bottom: -15px;
-	margin-top: 6px;
+	margin-top: 10px;
 	height: 2%;
 	width: 2%;
 }
@@ -725,5 +725,5 @@ footer .social p {
 	text-align: center;
 	padding: 2px 1px;
 	margin-bottom: 19px;
-	margin-top: 0px;
+	margin-top: 7px;
 }
